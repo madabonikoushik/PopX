@@ -1,0 +1,82 @@
+.register-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 20px 24px;
+}
+
+.register-title {
+  margin: 0;
+  max-width: 240px;
+  font-size: 34px;
+  line-height: 1.12;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.register-fields {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.agency-section {
+  margin-top: 20px;
+}
+
+.agency-label {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.agency-required {
+  color: red;
+  margin-left: 2px;
+}
+
+.radio-group {
+  margin-top: 12px;
+  display: flex;
+  gap: 28px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.radio-option input {
+  accent-color: #8b5cf6;
+}
+
+.register-button-wrap {
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.register-button {
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.disabled-button {
+  background: #cbcbcb;
+  color: white;
+  cursor: not-allowed;
+}
+
+.active-button {
+  background: #6c25ff;
+  color: white;
+  cursor: pointer;
+}

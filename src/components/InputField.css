@@ -1,0 +1,35 @@
+.input-field-group {
+  position: relative;
+}
+
+.input-field-label {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  background: #f7f8f9;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8b5cf6;
+}
+
+.input-required {
+  color: red;
+  margin-left: 2px;
+}
+
+.input-field-control {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  padding: 0 14px;
+  font-size: 15px;
+  color: #1f2937;
+  background: transparent;
+  outline: none;
+}
+
+.input-field-control:focus {
+  border-color: #8b5cf6;
+}

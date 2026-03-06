@@ -1,0 +1,96 @@
+.account-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 20px;
+  background: white;
+  border-bottom: 1px solid #ececec;
+}
+
+.account-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.logout-button {
+  border: none;
+  background: transparent;
+  color: #6c25ff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.account-body {
+  background: #f7f8f9;
+  padding: 28px 20px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.profile-image-wrap {
+  position: relative;
+}
+
+.profile-image {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-badge {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #6c25ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.profile-email {
+  margin: 6px 0 0;
+  font-size: 16px;
+  color: #374151;
+}
+
+.profile-bio {
+  margin-top: 24px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #4b5563;
+}
+
+.dashed-line {
+  border-top: 1px dashed #d7d7d7;
+}
+
+.account-empty-space {
+  flex: 1;
+  background: #f7f8f9;
+}
