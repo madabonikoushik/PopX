@@ -1,16 +1,58 @@
-# React + Vite
+# PopX Mobile UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React.js implementation of the given PopX mobile UI screens. The interface is built to match the provided design as closely as possible and is centered on the webpage, following the assignment instructions.
 
-Currently, two official plugins are available:
+## Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To create a pixel-perfect mobile app interface using React.js with seamless navigation between pages and deploy it on a hosting platform such as Netlify or Vercel.
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://jovial-torrone-9b8ca6.netlify.app/
 
-## Expanding the ESLint configuration
+## Implemented Screens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Welcome Screen
+- Sign In Screen
+- Create Account Screen
+- Account Settings Screen
+
+## Features
+
+- Pixel-perfect mobile-first layout
+- Mobile interface centered on the webpage
+- Smooth page navigation with React Router
+- Reusable components
+- Traditional CSS styling
+- Clean and structured codebase
+- Ready for deployment
+
+## Tech Stack
+
+- React.js
+- Vite
+- React Router DOM
+- Traditional CSS
+
+## Folder Structure
+
+```bash
+src/
+  components/
+    AppShell.jsx
+    AppShell.css
+    InputField.jsx
+    InputField.css
+  pages/
+    WelcomePage.jsx
+    WelcomePage.css
+    LoginPage.jsx
+    LoginPage.css
+    RegisterPage.jsx
+    RegisterPage.css
+    AccountPage.jsx
+    AccountPage.css
+  App.jsx
+  App.css
+  main.jsx
+  index.css
